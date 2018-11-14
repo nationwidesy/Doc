@@ -1,0 +1,10 @@
+Add Existing project to GitHub: using command Line
+first create project in GitHub
+second call Git Bash and run following command
+cd source/repos/WebDemo
+git init
+git add .
+git commit -m "First Commit"
+git remote add origin ...gitHut_url.git
+git remote -v
+git push origin master
